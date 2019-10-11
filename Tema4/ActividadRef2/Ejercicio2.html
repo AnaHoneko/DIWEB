@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Pide lo que te apetezca:</h1>
+    <form action="mailto:@ hamburguesería" method="post" enctype="text/plain">
+    <p>Seleccione el número de hamburguesas que desees: </p>
+    <div>
+        <ul>
+
+            <li type="disc">Hamburguesa completa: <input type="number" name="completa" value="0" max="10"> </li> 
+            
+            <li type="disc">Hamburguesa de pollo: <input type="number" name="pollo" value="0" max="10"></li>
+            <li type="disc">Hamburguesa vegetariana: <input type="number" name="vegetariana" value="0" max="10"></li>
+            <li type="disc">Hamburguesa doble: <input type="number" name="doble" value="0" max="10"></li>
+            
+        </ul>
+    </div>
+
+    <div>
+        <p>Escribe las modificaciones o preferencias sobre el pedido:</p>
+        <textarea name="textarea" rows="10" cols="50" autocomplete="on">Si el pepinillo no es para ti dínoslo.</textarea>
+    </div>
+    <hr>
+    <h1>Datos de contacto</h1>
+
+    <div>
+        <p>Nombre:</p>
+        <input type="text" name="nombre" value="Nombre" autocomplete="on"required>
+
+        <p>Apellidos:</p>
+        <input type="text" name="apellidos" value="Apellidos" autocomplete="on"required> 
+
+        <p>Teléfono:</p>
+        <input type="text" name="teléfono" value="Teléfono" autocomplete="on"required>
+
+        <p>Correo electrónico:</p>
+        <input type="text" name="email" autocomplete="on"required>
+
+        <p>¿Eres mayor de edad?
+
+        <select name="SINO" required>
+            <option value="1"></option>
+            <option value="2">Si</option> 
+            <option value="3">No</option> 
+         </select>
+        </p>
+
+        <hr>
+
+        <input type="checkbox" name="opciones" checked required>Quiero recibir información sobre ofertas. </br>
+        <input type="checkbox" name="opciones">Acepto las condiciones de uso del servicio.
+
+        <hr>
+
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+
+    </div>
+</form>
+</body>
+</html>
