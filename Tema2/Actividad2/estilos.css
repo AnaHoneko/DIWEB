@@ -1,0 +1,15 @@
+*{
+    font-size: 110%;
+}
+
+h1+h2{
+    color: tomato;
+}
+
+h2::first-letter {
+    color:  red;
+}
+
+li:nth-child(3) {
+    color: springgreen;
+}
