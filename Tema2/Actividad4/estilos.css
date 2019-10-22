@@ -1,0 +1,155 @@
+*{
+    text-decoration-line: none;
+    text-decoration: none;
+    font-family: 'Amatic SC';
+}
+
+.logo {
+    color: black;
+}
+
+a {
+    color:green;
+}
+
+
+li:nth-child(1) {
+    background-image: url(Captura.JPG);
+    background-repeat: no-repeat;
+    margin-left: 70%;
+    height: 50px;
+    width: 50px;
+}
+
+
+header {
+    background-color: gainsboro;
+    height: 90px;
+}
+
+
+
+
+li {
+    float: left;
+    margin-right: 3%;
+    list-style-type: none;
+}
+
+div:nth-child(1){
+    
+    margin-left: 10%;
+}
+
+div:nth-child(2){
+    margin-left: 10%;
+    float: left;
+    background: gainsboro;
+}
+div:nth-child(3){
+    float: left;
+    
+}
+div:nth-child(4){
+    float: left;
+    background: gainsboro;
+}
+div:nth-child(5){
+    margin-left: 10%;
+    float: left;
+    
+}
+div:nth-child(6){
+    float: left;
+    background: gainsboro;
+}
+div:nth-child(7){
+    float: left;
+    
+}
+div:nth-child(8){
+    margin-left: 10%;
+    float: left;
+    background: gainsboro;
+}
+div:nth-child(9){
+    float: left;
+    
+}
+div:nth-child(10){
+    float: left;
+    background: gainsboro;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width:700px) {
+    li:nth-child(1) {
+        background-image: url(Captura.JPG);
+        background-repeat: no-repeat;
+        background-position: right;
+        margin-left: 0%;
+        height: 50px;
+        width: 300px;
+    }
+    div {
+        width: 30%;
+        height: 30%;
+    }
+
+
+    header {
+        height: 150px;
+    }
+
+    li {
+        float: none;
+    }
+
+  }
+
+
+/* cyrillic */
+@font-face {
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Amatic SC Regular'), local('AmaticSC-Regular'), url(https://fonts.gstatic.com/s/amaticsc/v13/TUZyzwprpvBS1izr_vOEDuSfQZQ.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  /* hebrew */
+  @font-face {
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Amatic SC Regular'), local('AmaticSC-Regular'), url(https://fonts.gstatic.com/s/amaticsc/v13/TUZyzwprpvBS1izr_vOECOSfQZQ.woff2) format('woff2');
+    unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+  }
+  /* vietnamese */
+  @font-face {
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Amatic SC Regular'), local('AmaticSC-Regular'), url(https://fonts.gstatic.com/s/amaticsc/v13/TUZyzwprpvBS1izr_vOEBeSfQZQ.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Amatic SC Regular'), local('AmaticSC-Regular'), url(https://fonts.gstatic.com/s/amaticsc/v13/TUZyzwprpvBS1izr_vOEBOSfQZQ.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Amatic SC Regular'), local('AmaticSC-Regular'), url(https://fonts.gstatic.com/s/amaticsc/v13/TUZyzwprpvBS1izr_vOECuSf.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
