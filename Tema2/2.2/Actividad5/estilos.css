@@ -1,0 +1,169 @@
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#logotipo { width:280px; float:left; padding-left: 3%;}
+#iconos { size: x7; float: right; color: white;}
+header {margin-bottom: -5%; display: grid; grid-template-columns: 85% 15% ;}
+i { margin: 10% 5% 5% 5%; color: white;}
+#uno {
+display: grid; 
+grid-template-columns: 50% 50%; 
+background: 
+linear-gradient(to bottom, rgb(137, 137, 190, 0.2) , rgb(115, 231, 115, 0.8)),
+url(fondo_superior.jpg);
+background-repeat: none;
+background-size: cover; 
+}
+#descripcion {margin-top: 8%; color: white; padding-left: 10%; width: 100%;}
+#formulario {margin-top: 8%; color: white; padding-left: 20%; width: 100%; height: 100%;}
+form {
+background-color: white; 
+color: black; 
+width:40%;
+margin: 3% 3% 3% 3%;
+padding-left: 3%;
+padding-right: 2%;
+padding-top: 1%;
+padding-bottom: 1%;
+/*text-align: center;*/
+}
+
+#dos {
+    display: grid; 
+    grid-template-columns: 25% 25% 25% 25%;
+    margin: 1% 1% 1% 1%;
+    padding-left: 7%;
+    text-align: center;
+}
+
+.card {
+    width:20%;
+    text-align: center;
+}
+
+#textybutton{
+    height: 90%;
+    width: 90%;
+    margin: 10% 10% 10% 5%;
+}
+
+video{
+    height: 90%;
+    width: 90%;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+#tres {
+    
+    background-color: rgb(234, 243, 243);
+    display: grid; 
+    grid-template-columns: 60% 40%;
+    
+}
+
+section + h1 {
+    text-align: center;
+}
+
+#cuarto {
+    display: grid; 
+    grid-template-columns: 25% 25% 25% 25%;
+    margin: 1% 1% 1% 1%;
+    padding-left: 7%;
+    text-align: center;
+
+}
+
+.card2 {
+    width:70%;
+    height: 100%;
+    box-shadow: 2px 2px 10px #666;
+}
+
+.container {
+    margin-bottom: 10%;
+}
+
+#icono1{
+    color: darkcyan;
+}
+
+#quinto {
+text-align: center;
+background: 
+linear-gradient(to bottom, rgb(137, 137, 190, 0.2) , rgba(74, 108, 172, 0.8)),
+url(fondo_inferior.jpg);
+
+}
+
+#final {
+    padding: 10% 10% 10% 10%;
+    
+}
+
+footer {
+    height:60px;
+    line-height:60px;
+    background:rgb(31, 30, 30);
+    color:white;
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+}
+li{
+    list-style-type: none;
+}
+.navegacion {
+    float: left;
+    padding-top: 0;
+    margin: -1% 3%;
+}
+.navegacion2 {
+    float: right;
+    margin: -1%;
+}
+
+#primerh1 {
+    font-size: 2em;
+}
+
+
+.boton {
+    color: white;
+    background-color: chartreuse;
+    border:none;
+    width: 200px;
+    height: 30px;
+}
+
+/*RESPONSIVE*/ 
+@media screen and (max-width:998px) {
+    header {margin-bottom: -9%;}
+    .boton {width: 150px; height: 40px;}
+}
+
+@media screen and (max-width:830px){
+    .input1 {width: 120px;}
+}
+@media screen and (max-width:760px){
+    .boton {width: 100px; height: 55px;}
+    #dos {margin: 0% 0% 0% 0%;
+        padding-left: 0%;}
+        .card {
+            width:10%;
+        }
+}
+
+@media screen and (max-width:660px){
+    .card {
+        width: 5%;
+    }
+    .input1 {
+        width: 90px;
+    }
+    img {display: none;}
+}
