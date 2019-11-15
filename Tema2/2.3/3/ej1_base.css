@@ -1,0 +1,114 @@
+.container {
+  position: relative;
+}
+
+.caja {
+  width: 180px;
+  height: 180px;
+  background-color: #30B037;
+  color: #FFF;
+  text-align: center;
+  line-height: 180px;
+  margin: 15px;
+  float: left;
+  font-size: 18px;
+  font-family: Arial;
+}
+
+/**
+  ScaleRotateSkewSkewXSkewYTranslateTranslateXTranslateYPerspective rotatePerspective rotateMatrix
+  **/
+.caja1 {
+  transition-duration: 1s;
+  background-color: red;
+}
+
+.caja1:hover {
+  transform: scale(1.1);
+}
+
+.caja2 {
+  transition-duration: 1s;
+  background-color: violet;
+}
+
+.caja2:hover {
+  transform: rotate(20deg);
+}
+
+.caja3 {
+  transition-duration: 1s;
+  background-color: rgb(44, 42, 148);
+}
+
+.caja3:hover {
+  transform: skew(10deg);
+}
+
+.caja4 {
+  transition-duration: 1s;
+  background-color: rgb(68, 67, 122);
+}
+
+.caja4:hover {
+  transform: skewX(10deg);
+}
+
+.caja5 {
+  transition-duration: 1s;
+  background-color: rgb(26, 25, 59);
+}
+
+.caja5:hover {
+  transform: skewY(10deg);
+}
+.caja6 {
+  transition-duration: 1s;
+  background-color: rgb(34, 97, 112);
+}
+
+.caja6:hover {
+  transform: translate(40px);
+}
+.caja7 {
+  transition-duration: 1s;
+  background-color: rgb(224, 151, 40);
+}
+
+.caja7:hover {
+  transform: translateX(40px);
+}
+.caja8 {
+  transition-duration: 1s;
+  background-color: rgb(219, 49, 114);
+}
+
+.caja8:hover {
+  transform: translateY(40px);
+}
+.caja9 {
+  transition-duration: 1s;
+  background-color: rgb(49, 219, 106);
+}
+
+.caja9:hover {
+  transform: perspective(400px) rotateY(45deg);
+}
+
+.caja10 {
+  transition-duration: 1s;
+  background-color: rgb(2, 82, 28);
+}
+
+.caja10:hover {
+  transform: perspective(400px) rotateX(45deg);
+}
+
+.caja11 {
+  transition-duration: 1s;
+  background-color: rgb(51, 5, 104);
+}
+
+.caja11:hover {
+  transform: matrix(1, -0.7, 0, 1, 0, 0);
+}
