@@ -1,0 +1,35 @@
+div {
+    min-height: 30px;
+    margin: 0.2%;
+}
+.col-md-10{
+    float: left;
+    background-color: greenyellow;
+}
+
+.col-md-2{
+    min-height: 410px;
+    float: left;
+    background-color: red;
+}
+
+.col-md-8{
+    float: left;
+    background-color:hotpink;
+}
+
+.col-md-4{
+    min-height: 150px;
+    float: left;
+    background-color: coral;
+}
+.col-md-1{
+    min-height: 90px;
+    float: left; 
+    background-color: blue;
+}
+.col-md-3{
+    min-height: 90px;
+    float: left; 
+    background-color: blue;
+}
