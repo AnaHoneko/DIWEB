@@ -1,20 +1,17 @@
 div {
-    
+    min-height: 30px;
     margin: 0.2%;
 }
 .col-md-10{
-    min-height: 30px;
     background-color: red;
 }
 
 .col-md-2{
-    min-height: 150px;
     float: left;
     background-color: blue;
 }
 
 .col-md-8{
-    min-height: 30px;
     float: left;
     background-color: green;
 }

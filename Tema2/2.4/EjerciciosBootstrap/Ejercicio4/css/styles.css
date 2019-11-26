@@ -1,0 +1,19 @@
+.col-md-12{
+    
+
+    background-color: greenyellow;
+}
+.col-md-4{
+    
+  
+    background-color: red;
+
+    
+}
+.col-md-6{
+    background-color: rgb(198, 245, 30);
+
+}
+div {
+    border: 1px solid;
+}
