@@ -1,0 +1,47 @@
+* {
+    /* Se resetean los margenes y los padding */
+    margin: 0%;
+    padding: 0%;
+    /* Se utiliza la tipografía Roboto */
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    /* Anchura para todas las secciones/contenedores */
+    width: 90%;
+}
+
+header {
+    height: 90px;
+}
+
+li {
+    float: left;
+    margin-right: 3%;
+    list-style-type: none;
+    
+}
+
+a {
+    text-decoration-line: none;
+    text-decoration: none;
+    color: black;
+}
+
+#contacto {
+    border: solid;
+    border-color: red;
+}
+
+a:hover::before{
+    border:solid;
+}
+
+a {
+    transition-duration: 1s;
+    
+  }
+  
+a:hover {
+    transform: background-color(red);
+  }
