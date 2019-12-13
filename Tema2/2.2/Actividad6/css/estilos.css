@@ -1,0 +1,340 @@
+/* ESTILOS GENERALES */
+html,
+body {
+  height: 100%;
+}
+/* Modificar el modelo de cajas de CSS */
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+/* Resetear márgenes y padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+/* Centrar elementos en pantalla */
+.container {
+  width: 90%;
+  max-width: 1366px;
+  margin: 0 auto;
+}
+/* Estilos de los textos */
+h2 {
+  font-size: 1.85rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+
+/* ESTILOS DE LOS CONTENIDOS */
+/* Barra de navegación */
+#navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#main-nav {
+  display: flex;
+  list-style: none;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+}
+#main-nav li {
+  padding: 12px 0.85em;
+}
+#main-nav li a {
+  color: #0f0f0f;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.95rem;
+  padding-bottom: 12px;
+}
+#main-nav li a:hover {
+  border-bottom: 2px solid #ff0000;
+}
+#main-nav + a {
+  color: #0f0f0f;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.95rem;
+  border: 1px solid #ff0000;
+  padding: 12px 3em;
+  transition: all 0.5s;
+}
+
+#main-nav + a:hover {
+  background-color: #ff0000;
+  color: #fff;
+  transition: all 0.5s;
+}
+nav {
+  padding: 12px 0;
+  border-bottom: 1px solid #ccc;
+}
+/* Sección 1 */
+article > section:nth-child(1) {
+  background-image: linear-gradient(
+      rgba(41, 24, 21, 0.5),
+      rgba(41, 24, 21, 0.9)
+    ),
+    url(libro1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+#seccionPrimera {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  min-height: 600px;
+}
+
+#seccionPrimera h1 {
+  font-size: 3.85rem;
+  font-family: arial, tahoma, verdana, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgb(106, 86, 218);
+}
+/* Sección 2 */
+article > section:nth-child(2) {
+  margin: 60px 0;
+}
+#seccionSegunda {
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 40px;
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+#seccionSegunda div {
+  flex-basis: 65%;
+  padding-left: 1.85em;
+}
+/* Sección 3 */
+#seccionTercera {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 2rem;
+  height: 360px;
+  align-items: center;
+  color: #fff;
+}
+article > section:nth-child(3) {
+  background-image: linear-gradient(
+      rgba(41, 24, 21, 0.5),
+      rgba(41, 24, 21, 0.9)
+    ),
+    url(LIBROS.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+/* Sección 4 */
+article > section:nth-child(4) {
+  margin: 60px 0;
+}
+#seccionCuarta {
+  display: flex;
+  margin-top: 60px;
+}
+#seccionCuarta img {
+  width: 100%;
+}
+#seccionCuarta div {
+  margin: 0 0.5em;
+  box-shadow: -2px 2px 2px #ccc, 2px 4px 1px #ccc;
+  padding-bottom: 15px;
+}
+#seccionCuarta h3 {
+  text-align: center;
+  padding: 12px 0;
+  font-weight: 500;
+}
+/* Seccion Quinta */
+#seccionQuinta {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+    height: 360px;
+    align-items: center;
+    color: #fff;
+  }
+  article > section:nth-child(5) {
+    background-image: linear-gradient(
+        rgba(41, 24, 21, 0.5),
+        rgba(41, 24, 21, 0.9)
+      ),
+      url(LIBROS.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+
+  /* Seccion 6 */
+  #seccionSexta {
+    text-align: center;
+  }
+  #boton {
+    margin: 3%;
+    height: 40px;
+    width: 10%;
+    border-radius: 10%;
+    background-color: rgb(77, 75, 209);
+    color: white;
+    border: none;
+  }
+
+  /* Footer */
+footer {
+  background-color: rgb(68, 63, 63);
+}
+
+i {
+  color: white;
+  font-size: 200%;
+  margin: 3%;
+}
+
+#pieDePagina {
+  text-align: center;
+}
+#copyright {
+  text-align: center;
+  color: white;
+}
+
+
+/* RESPONSIVE */
+
+/* small */
+@media screen and (max-width:576px) {
+  nav {
+    display: none;
+  }
+  
+  #seccionPrimera  h1{
+    font-size: 3.3rem;
+  }
+
+  #seccionSegunda{
+    display: flex;
+    flex-direction: column;
+  }
+  #seccionSegunda img {
+    display: none;
+  }
+  #seccionTercera{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #seccionCuarta{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #seccionQuinta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .col {
+    width: 100%;
+  }
+}
+
+/* Medium */
+@media screen and (max-width:660px) and (min-width:576px) {
+  nav {
+    display: none;
+  }
+  #seccionPrimera  h1{
+    font-size: 3.3rem;
+  }
+
+  #seccionSegunda{
+    display: flex;
+    flex-direction: column;
+  }
+  #seccionSegunda img {
+    display: none;
+  }
+  #seccionTercera{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #seccionCuarta{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #seccionQuinta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .col {
+    width: 100%;
+  }
+}
+
+/* Large 1 */
+@media screen and (max-width:960px) and (min-width:660px) {
+  
+  li a{
+    font-size: 0.95em;
+  }
+
+  nav {
+    display: none;
+  }
+}
+
+/* Large 2 */
+@media screen and (max-width:980px) and (min-width:960px) {
+  header p {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width:1200px) and (min-width:980px) {
+  header p {
+    display: none;
+  }
+}
+
+/* Extra large */
+@media screen and (min-width:1200px) {
+  header p {
+    display: none;
+  }
+}
