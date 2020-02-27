@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js.js"></script>
+    <link rel="stylesheet" href="css.css">
+    <script src="https://kit.fontawesome.com/258596f4d0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="despegados" ondragover="allowDrop(event)" ondrop="drop(event)">Nº de vuelos Despegados: <span id="contadorD"></span></div>
+    <div id="aterrizados" ondragover="allowDrop(event)" ondrop="drop(event)">Nº de vuelos Aterrizados: <span id="contadorA"></span></div>
+    <div id="despegar" draggable="true" ondragstart="drag(event)"><i class="fas fa-plane-departure" ></i></div>
+    <div id="aterrizar" draggable="true" ondragstart="drag(event)"><i class="fas fa-plane-arrival" ></i></div>
+    <div id="basurita" ondragover="allowDrop(event)" ondrop="drop(event)"><i class="fas fa-trash-alt"></i></div>
+    
+</body>
+</html>
